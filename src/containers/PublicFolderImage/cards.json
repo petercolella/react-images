@@ -1,0 +1,14 @@
+[
+  {
+    "src": "./images/forrest.jpg",
+    "alt": "forrest"
+  },
+  {
+    "src": "./images/lighthouse.jpg",
+    "alt": "lighthouse"
+  },
+  {
+    "src": "./images/sky.jpg",
+    "alt": "sky"
+  }
+]
