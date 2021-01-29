@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../components/Card/Card";
 import laptop from "../../images/laptop.jpg";
-import phil from "../../images/phil.jpg";
+import ocean from "../../images/ocean.jpg";
 import plane from "../../images/plane.jpg";
 
 const cards = [
@@ -10,8 +10,8 @@ const cards = [
     alt: "laptop",
   },
   {
-    src: phil,
-    alt: "phil",
+    src: ocean,
+    alt: "ocean",
   },
   {
     src: plane,
