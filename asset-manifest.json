@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/react-images/static/js/main.226a117f.chunk.js",
+    "main.js.map": "/react-images/static/js/main.226a117f.chunk.js.map",
+    "runtime-main.js": "/react-images/static/js/runtime-main.bab657fb.js",
+    "runtime-main.js.map": "/react-images/static/js/runtime-main.bab657fb.js.map",
+    "static/js/2.abb13896.chunk.js": "/react-images/static/js/2.abb13896.chunk.js",
+    "static/js/2.abb13896.chunk.js.map": "/react-images/static/js/2.abb13896.chunk.js.map",
+    "index.html": "/react-images/index.html",
+    "static/js/2.abb13896.chunk.js.LICENSE.txt": "/react-images/static/js/2.abb13896.chunk.js.LICENSE.txt",
+    "static/media/mountain.jpg": "/react-images/static/media/mountain.a4018bbd.jpg",
+    "static/media/plane.08f3bfda.jpg": "/react-images/static/media/plane.08f3bfda.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bab657fb.js",
+    "static/js/2.abb13896.chunk.js",
+    "static/js/main.226a117f.chunk.js"
+  ]
+}
