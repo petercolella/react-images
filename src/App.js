@@ -8,7 +8,7 @@ import SrcFolderRequireImages from "./containers/SrcFolderRequireImages/SrcFolde
 function App() {
   return (
     <div style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-      <Router>
+      <Router basename="/react-images">
         <NavBar />
         <Switch>
           <Route exact path={"/"} component={Home} />
