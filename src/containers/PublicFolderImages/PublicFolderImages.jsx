@@ -4,12 +4,18 @@ import cards from "./cards.json";
 
 const PublicFolderImage = () => {
   return (
-    <div>
-      <h1>Images from Public Folder</h1>
-      {cards.map((card, i) => (
-        <Card key={i} {...card} />
-      ))}
-    </div>
+    <>
+      <div className="row">
+        <div className="col">
+          <h1>Images from Public Folder</h1>
+        </div>
+      </div>
+      <div className="row">
+        {cards.map((card, i) => (
+          <Card key={i} {...card} />
+        ))}
+      </div>
+    </>
   );
 };
 
