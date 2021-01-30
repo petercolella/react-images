@@ -7,7 +7,7 @@ import SrcFolderRequireImages from "./containers/SrcFolderRequireImages/SrcFolde
 
 function App() {
   return (
-    <Router basename="/react-images">
+    <Router basename={`${process.env.PUBLIC_URL}/react-images`}>
       <NavBar />
       <div className="container">
         <Switch>
