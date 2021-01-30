@@ -7,11 +7,11 @@ import SrcFolderRequireImages from "./containers/SrcFolderRequireImages/SrcFolde
 
 function App() {
   return (
-    <div style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-      <Router basename="/react-images">
-        <NavBar />
+    <Router basename="/react-images">
+      <NavBar />
+      <div className="container">
         <Switch>
-          <Route exact path={"/"} component={Home} />
+          <Route exact path={"/home"} component={Home} />
           <Route exact path={"/public"} component={PublicFolderImages} />
           <Route exact path={"/src"} component={SrcFolderImages} />
           <Route
@@ -19,9 +19,10 @@ function App() {
             path={"/src-require"}
             component={SrcFolderRequireImages}
           />
+          <Route component={Home} />
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

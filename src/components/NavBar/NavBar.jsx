@@ -1,38 +1,32 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const styles = {
-  navBar: {
-    backgroundColor: "black",
-    color: "white",
-    padding: "0.5rem",
-  },
-  navLink: {
-    color: "white",
-    textDecoration: "none",
-    margin: "0.5rem",
-  },
-};
-
 const NavBar = () => {
   return (
-    <div style={styles.navBar}>
-      <NavLink style={styles.navLink} to={"/"}>
-        Home
-      </NavLink>
-      {"  |  "}
-      <NavLink style={styles.navLink} to={"/public"}>
-        Images from Public Folder
-      </NavLink>
-      {"  |  "}
-      <NavLink style={styles.navLink} to={"/src"}>
-        Images from Src Folder
-      </NavLink>
-      {"  |  "}
-      <NavLink style={styles.navLink} to={"/src-require"}>
-        Images from Src Folder Using Require
-      </NavLink>
-    </div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <ul className="navbar-nav mr-auto">
+        <li className="nav-item">
+          <NavLink className="nav-link" to={"/home"}>
+            Home
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to={"/public"}>
+            Images from Public Folder
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to={"/src"}>
+            Images from Src Folder
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to={"/src-require"}>
+            Images from Src Folder Using Require
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
