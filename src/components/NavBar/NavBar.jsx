@@ -12,17 +12,17 @@ const NavBar = () => {
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to={"/public"}>
-            Images from Public Folder
+            Public Folder
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to={"/src"}>
-            Images from Src Folder
+            Src Folder
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to={"/src-require"}>
-            Images from Src Folder Using Require
+            Src Folder Using Require
           </NavLink>
         </li>
       </ul>
