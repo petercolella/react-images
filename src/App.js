@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       <div className="container">
         <Switch>
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/public" component={PublicFolderImages} />
           <Route exact path="/src" component={SrcFolderImages} />
           <Route exact path="/src-require" component={SrcFolderRequireImages} />
