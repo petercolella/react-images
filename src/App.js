@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 import Home from "./containers/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
 import PublicFolderImages from "./containers/PublicFolderImages/PublicFolderImages";
@@ -15,7 +20,7 @@ function App() {
           <Route exact path="/public" component={PublicFolderImages} />
           <Route exact path="/src" component={SrcFolderImages} />
           <Route exact path="/src-require" component={SrcFolderRequireImages} />
-          <Route component={Home} />
+          <Redirect to="/" />
         </Switch>
       </div>
     </Router>
