@@ -1,15 +1,15 @@
 const cards = [
   {
     src: require("../../images/leaves.jpg").default,
-    alt: "leaves",
+    title: "Leaves",
   },
   {
     src: require("../../images/mountain.jpg").default,
-    alt: "mountain",
+    title: "Mountain",
   },
   {
     src: require("../../images/road.jpg").default,
-    alt: "road",
+    title: "Road",
   },
 ];
 

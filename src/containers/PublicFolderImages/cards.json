@@ -1,14 +1,14 @@
 [
   {
     "src": "./images/forrest.jpg",
-    "alt": "forrest"
+    "title": "Forrest"
   },
   {
     "src": "./images/lighthouse.jpg",
-    "alt": "lighthouse"
+    "title": "Lighthouse"
   },
   {
     "src": "./images/sky.jpg",
-    "alt": "sky"
+    "title": "Sky"
   }
 ]
