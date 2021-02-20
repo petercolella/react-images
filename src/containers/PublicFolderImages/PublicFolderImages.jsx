@@ -5,15 +5,15 @@ import cards from "./cards.json";
 const PublicFolderImage = () => {
   return (
     <>
-      <div className="row">
-        <div className="col">
-          <h1>Images from Public Folder</h1>
+      <div className="row my-5">
+        <div className="col-4">
+          {cards.map((card, i) => (
+            <Card key={i} {...card} />
+          ))}
         </div>
-      </div>
-      <div className="row">
-        {cards.map((card, i) => (
-          <Card key={i} {...card} />
-        ))}
+        <div className="col-8">
+          <h1 className="text-center">Images from Public Folder</h1>
+        </div>
       </div>
     </>
   );
