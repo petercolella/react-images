@@ -3,7 +3,7 @@ import Image from "../Image/Image";
 
 const Card = (props) => {
   return (
-    <div className="p-3">
+    <div className="pb-3 pt-2">
       <div className="card" style={{ width: "18rem" }}>
         <Image {...props} />
         <div className="card-body">

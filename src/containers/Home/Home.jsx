@@ -9,15 +9,26 @@ const Home = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col"></div>
-        <div className="col">
+        <div className="col-2"></div>
+        <div className="col-8">
           <p>
-            This app demonstrates three methods to render images when they are
-            part of a data set being mapped over.
+            This app demonstrates three methods to render images which are
+            stored as static assets. While it is possible to store images in the{" "}
+            <code>public</code> folder, it is best practice to store them within
+            the <code>src</code> folder.
           </p>
-          <p>Click on the links above for an explanation of each one.</p>
+          <p>
+            In each case, the path to the image is stored in an array of objects
+            which is mapped over to render the image on a card. The third
+            example uses an external file and <code>require</code> rather than
+            the ES6 <code>import</code>, but either <code>require</code> or{" "}
+            <code>import</code> can be used in the second example as well.
+          </p>
+          <p className="font-weight-bolder">
+            Click the links above to see the code.
+          </p>
         </div>
-        <div className="col"></div>
+        <div className="col-2"></div>
       </div>
     </>
   );

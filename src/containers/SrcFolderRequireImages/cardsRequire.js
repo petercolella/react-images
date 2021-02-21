@@ -1,14 +1,14 @@
 const cards = [
   {
-    src: require("../../images/leaves.jpg").default,
+    src: require("./images/leaves.jpg").default,
     title: "Leaves",
   },
   {
-    src: require("../../images/mountain.jpg").default,
+    src: require("./images/mountain.jpg").default,
     title: "Mountain",
   },
   {
-    src: require("../../images/road.jpg").default,
+    src: require("./images/road.jpg").default,
     title: "Road",
   },
 ];
