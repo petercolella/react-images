@@ -26,6 +26,18 @@ const NavBar = () => {
           </NavLink>
         </li>
       </ul>
+      <ul className="navbar-nav ml-auto">
+        <li className="nav-item">
+          <a
+            className="nav-link"
+            href="https://github.com/petercolella/react-images"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repo
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 };
