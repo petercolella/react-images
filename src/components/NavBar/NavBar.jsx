@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" to={"/"}>
+          <NavLink className="nav-link" exact to={"/"}>
             Home
           </NavLink>
         </li>
