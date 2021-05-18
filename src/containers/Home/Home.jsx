@@ -14,15 +14,17 @@ const Home = () => {
           <p>
             This app demonstrates three methods to render images which are
             stored as static assets. While it is possible to store images in the{" "}
-            <code>public</code> folder, it is best practice to store them within
-            the <code>src</code> folder.
+            <code>public</code> folder (the first method), it is best practice
+            to store them within the <code>src</code> folder as files in the{" "}
+            <code>public</code> folder will not be processed by webpack.
           </p>
           <p>
-            In each case, the path to the image is stored in an array of objects
-            which is mapped over to render the image on a card. The third
-            example uses an external file and <code>require</code> rather than
-            the ES6 <code>import</code>, but either <code>require</code> or{" "}
-            <code>import</code> can be used in the second example as well.
+            In each case, the image source is stored in an array of objects
+            which is mapped over to render the image on a card. However, the
+            second and third methods use images stored in a folder adjacent to
+            their container file. The second example uses the ES6{" "}
+            <code>import</code>, and the third example uses an external JSON
+            file, <i>similar to the first example</i>, and <code>require</code>.
           </p>
           <p className="font-weight-bolder">
             Click the links above to see the code.

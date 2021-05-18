@@ -20,12 +20,12 @@ const cards = [
   },
 ];
 
-const SrcFolderImage = () => {
+const SrcFolderImages = () => {
   return (
     <>
       <div className="row my-5">
         <div className="col">
-          <h1 className="text-center">Images within Src Folder</h1>
+          <h1 className="text-center">Images within Src Folder using Import</h1>
         </div>
       </div>
       <div className="row">
@@ -42,4 +42,4 @@ const SrcFolderImage = () => {
   );
 };
 
-export default SrcFolderImage;
+export default SrcFolderImages;

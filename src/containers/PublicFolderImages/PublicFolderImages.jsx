@@ -3,7 +3,7 @@ import Card from "../../components/Card/Card";
 import CodeGists from "./CodeGists";
 import cards from "./cards.json";
 
-const PublicFolderImage = () => {
+const PublicFolderImages = () => {
   return (
     <>
       <div className="row my-5">
@@ -25,4 +25,4 @@ const PublicFolderImage = () => {
   );
 };
 
-export default PublicFolderImage;
+export default PublicFolderImages;

@@ -17,7 +17,7 @@ const NavBar = () => {
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to={"/src"}>
-            Src Folder
+            Src Folder Using Import
           </NavLink>
         </li>
         <li className="nav-item">
